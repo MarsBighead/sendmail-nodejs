@@ -2,7 +2,7 @@ Emailer = require ("./lib/emailer");
 options ={
     from: '"Mars Group" <register-noreply@mars.com>', // sender address
     to:{
-       email :'duanp@vmware.com', // list of receivers
+       email :'duanp@localhost', // list of receivers
        cc :'xxxxx@xxx.com', 
        bcc:'xxxx@gmail.com', 
        name: "Mars",
