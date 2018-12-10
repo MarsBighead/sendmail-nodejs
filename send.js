@@ -1,12 +1,12 @@
 Emailer = require ("./lib/emailer");
 options ={
-    from: '"xxxx Group" <register-noreply@xxx.com>', // sender address
+    from: '"Mars Group" <register-noreply@mars.com>', // sender address
     to:{
-       email :'hbu@localhost', // list of receivers
+       email :'duanp@vmware.com', // list of receivers
        cc :'xxxxx@xxx.com', 
        bcc:'xxxx@gmail.com', 
-       name: "Test",
-       surname: "T"
+       name: "Mars",
+       surname: "Bighead"
     },
     subject: "Please active your account", // Subject line
     template: "reg_active.ejs"
